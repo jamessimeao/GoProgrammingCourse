@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"math"
 )
 
 func main() {
@@ -27,6 +26,4 @@ func main() {
 	t = s + fmt.Sprint(a)
 
 	fmt.Println(t)
-
-	fmt.Println(math.Abs(-5))
 }
